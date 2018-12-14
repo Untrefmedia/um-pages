@@ -1,0 +1,17 @@
+{
+  "name": "untrefmedia/um-pages",
+  "description": "Page package for um-admin",
+  "authors": [
+    {
+      "name": "Ariel Kuhn",
+      "email": "akuhn@untref.edu.ar"
+    }
+  ],
+  "license": "MIT",
+  "minimum-stability": "alpha",
+  "require": {
+  },
+  "require-dev": {
+
+  }
+}
