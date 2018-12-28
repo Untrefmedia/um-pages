@@ -1,6 +1,8 @@
 <?php
 namespace Untrefmedia\UMPages;
+
 use Illuminate\Support\Facades\Facade;
+
 /**
  * @see \Spatie\Skeleton\SkeletonClass
  */

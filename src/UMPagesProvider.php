@@ -12,7 +12,7 @@ class UMPagesProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/um-pages.php' => config_path('um-pages.php'),
+            __DIR__ . '/config/um-pages.php' => config_path('um-pages.php')
 
         ], 'config');
 
@@ -23,11 +23,8 @@ class UMPagesProvider extends ServiceProvider
      */
     public function register()
     {
-
-        require __DIR__ . '/routes.php';
-        $this->loadViewsFrom(__DIR__ . '/Resources/views', 'umpages');
-
-
+        require __DIR__ . '/routes/web.php';
+        $this->loadViewsFrom(__DIR__ . '/views', 'umpages');
 
     }
 }
