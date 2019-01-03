@@ -4,18 +4,18 @@ return [
     'menu' => [
         [
             'text'        => 'Pages',
-            'url'         => 'admin/pages',
+            'url'         => 'admin/page',
             'icon'        => 'file',
             'label'       => null,
             'label_color' => 'success',
             'submenu'     => [
                 [
                     'text' => 'List',
-                    'url'  => 'admin/pages'
+                    'url'  => 'admin/page'
                 ],
                 [
                     'text' => 'Create',
-                    'url'  => 'admin/pages/create'
+                    'url'  => 'admin/page/create'
                 ]
             ]
         ]
